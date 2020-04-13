@@ -1,0 +1,56 @@
+* {
+   font-family: 'Great Vibes', cursive;
+   span {
+      text-shadow: 5px -5px 50px white;
+   }
+}
+#ramadan {
+   background: url(../img/pexels-photo-2233416.jpeg);
+   height: 100vh;
+   background-size: cover;
+   background-position: center left;
+   background-repeat: no-repeat;
+   .dark-overlay {
+      background: rgba(0, 0, 0, 0.5);
+      height: 100%;
+   }
+   h1 {
+      span {
+         font-size: 100px;
+      }
+   }
+   #getting-started1,
+   #getting-started2,
+   #getting-started3,
+   #getting-started4 {
+      background: none;
+      span {
+         font-size: 100px;
+      }
+      span:nth-child(2) {
+         font-size: 25px;
+      }
+   }
+}
+
+@media (max-width: 512px) {
+   #ramadan {
+      h1 {
+         span {
+            font-size: 50px;
+         }
+      }
+      #getting-started1,
+      #getting-started2,
+      #getting-started3,
+      #getting-started4 {
+         background: none;
+         span {
+            font-size: 50px;
+         }
+         span:nth-child(2) {
+            font-size: 25px;
+         }
+      }
+   }
+}

@@ -1,0 +1,50 @@
+* {
+  font-family: 'Great Vibes', cursive; }
+  * span {
+    text-shadow: 5px -5px 50px white; }
+
+#ramadan {
+  background: url(../img/pexels-photo-2233416.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat; }
+  #ramadan .dark-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%; }
+  #ramadan h1 span {
+    font-size: 100px; }
+  #ramadan #getting-started1,
+  #ramadan #getting-started2,
+  #ramadan #getting-started3,
+  #ramadan #getting-started4 {
+    background: none; }
+    #ramadan #getting-started1 span,
+    #ramadan #getting-started2 span,
+    #ramadan #getting-started3 span,
+    #ramadan #getting-started4 span {
+      font-size: 100px; }
+    #ramadan #getting-started1 span:nth-child(2),
+    #ramadan #getting-started2 span:nth-child(2),
+    #ramadan #getting-started3 span:nth-child(2),
+    #ramadan #getting-started4 span:nth-child(2) {
+      font-size: 25px; }
+
+@media (max-width: 512px) {
+  #ramadan h1 span {
+    font-size: 50px; }
+  #ramadan #getting-started1,
+  #ramadan #getting-started2,
+  #ramadan #getting-started3,
+  #ramadan #getting-started4 {
+    background: none; }
+    #ramadan #getting-started1 span,
+    #ramadan #getting-started2 span,
+    #ramadan #getting-started3 span,
+    #ramadan #getting-started4 span {
+      font-size: 50px; }
+    #ramadan #getting-started1 span:nth-child(2),
+    #ramadan #getting-started2 span:nth-child(2),
+    #ramadan #getting-started3 span:nth-child(2),
+    #ramadan #getting-started4 span:nth-child(2) {
+      font-size: 25px; } }
